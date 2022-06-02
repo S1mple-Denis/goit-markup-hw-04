@@ -114,6 +114,25 @@ padding-left: 50px;
   line-height: 1.14;
   text-decoration: none;
 }
+.header-contacts-link.mail::before {
+  display: inline-flex;
+  width:16px;
+  height:12px;
+  content: "";
+  background-image: url(../image/mail.svg);
+  margin-right: 10px;
+  background-size: contain;
+}
+
+.header-contacts-link.tel::before {
+  display: inline-flex;
+  width:10px;
+  height:16px;
+  content: "";
+  background-image: url(../image/tel.svg);
+  margin-right: 10px;
+  background-size: contain;
+}
 
 .header-contacts-link:hover,
 .header-contacts-link:focus,
@@ -135,8 +154,6 @@ padding-left: 50px;
 .hero-page {
   background-color: #2f303a;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -148,7 +165,21 @@ padding-left: 50px;
   text-transform: uppercase;
 }
 
-
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: 
+  linear-gradient(to right, rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)),
+  url(../image/backround-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 /* кнопка */
 .hero-button {
   margin-top: 30px;
