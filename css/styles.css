@@ -491,9 +491,46 @@ border: 1px solid #2196F3;
   color: var(--futer-mail-tel)
   line-height: 1.71;
 }
+.container.futer {
+  display:flex;
+  align-items: baseline;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.futer-slogan-text {
+  margin-bottom: 20px;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--white-text-colour);
+}
+.futer-slogan-links{
+  margin-left: 70px;
+}
+.futer-slogan-list {
+  display: flex;
+  
+}
 
 
-
+.futer-slogan-item {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.futer-slogan-item:last-child {
+  margin-right: 0;
+}
+.futer-slogan-item:hover {
+  background-color: #2196F3;
+}
 /* страница портфолио */
 .portfolio-main {
   background-color: var(--white-text-colour);
