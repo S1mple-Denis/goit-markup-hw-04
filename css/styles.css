@@ -109,12 +109,13 @@ padding-left: 50px;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px; 
+  padding-left: 10px;
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
   text-decoration: none;
 }
-.header-contacts-link.mail::before {
+/* .header-contacts-link.mail::before {
   display: inline-flex;
   width:16px;
   height:12px;
@@ -132,7 +133,7 @@ padding-left: 50px;
   background-image: url(../image/tel.svg);
   margin-right: 10px;
   background-size: contain;
-}
+} */
 
 .header-contacts-link:hover,
 .header-contacts-link:focus,
@@ -237,9 +238,50 @@ margin-right: 30px;
   margin-top: 10px;
   line-height: 1.71;
 }
+/* 
+.prefences-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.prefences-item.icon-signal::before {
+  background-image: url(../image/Prefences-image-1.svg);
+  background-size: 65.32px;
+}
+.prefences-item.icon-clock::before {
+  background-image: url(..//image/Prefences-image-2.svg);
+  background-size: 66.96px;
+}
+.prefences-item.icon-pc::before {
+background-image: url(..//image/Prefences-image-3.svg);
+background-size: 70px;
+}
+.prefences-item.icon-cosmo::before {
+background-image: url(..//image/Prefences-image-4.svg);
+background-size: 70px;
+} */
+
+.prefences-pic {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F4FA;
+}
+.prefences-icon {
+  
+}
 
 
 /* чем мы занимаемся*/
+
 .about{
   padding-top: 0;
 }
@@ -314,13 +356,80 @@ border-radius: 0px 0px 4px 4px;
 
 .our-team p {
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
 }
 
+.social-links {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.social-links-items {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.sl-logo {
+  fill: #AFB1B8;
+}
 
+.social-links-items:hover {
+  background-color: #2196F3;
+}
+
+.sl-logo:hover {
+  fill: #FFFFFF;
+}
+
+/* Постоянные клиенты */
+.clients-text {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.clients-list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.clients-card {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+.client-item {
+  margin-right: 30px;
+}
+
+.client-item:last-child {
+  margin-right: 0;
+}
+
+.clients-card:hover {
+border: 1px solid #2196F3;
+}
+
+.clients-logo {
+  fill: #AFB1B8;
+}
+.clients-logo:hover {
+  fill: #2196F3;
+}
 /* футер */
 .futer {
   padding-top: 60px;
