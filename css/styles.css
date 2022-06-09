@@ -115,6 +115,9 @@ padding-left: 50px;
   line-height: 1.14;
   text-decoration: none;
 }
+.header-mail-logo {
+  fill: currentColor;
+}
 /* .header-contacts-link.mail::before {
   display: inline-flex;
   width:16px;
@@ -376,17 +379,19 @@ border-radius: 0px 0px 4px 4px;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  fill: #AFB1B8;
 }
 .sl-logo {
-  fill: #AFB1B8;
+  fill: currentColor;
 }
 
 .social-links-items:hover {
   background-color: #2196F3;
+  fill: #ffffff;
 }
 
 .sl-logo:hover {
-  fill: #FFFFFF;
+  fill: currentColor;
 }
 
 /* Постоянные клиенты */
