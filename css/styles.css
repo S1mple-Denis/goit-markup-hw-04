@@ -165,18 +165,6 @@ padding-left: 50px;
 .hero-page {
   background-color: #2f303a;
   text-align: center;
-}
-
-.hero-title {
-  color: var(--white-text-colour);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-.overlay {
   max-width: 1600px;
   height: 600px;
   padding-top: 200px;
@@ -191,6 +179,16 @@ padding-left: 50px;
   background-size: cover;
   background-position: center;
 }
+
+.hero-title {
+  color: var(--white-text-colour);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 /* кнопка */
 .hero-button {
   margin-top: 30px;
@@ -606,14 +604,15 @@ margin-right: 0;
   margin-bottom: 0;
 }
 
-.main-list-item:hover,
-.main-list-item:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+.main-list-cards:hover,
+.main-list-cards:focus {
+  display: block;
+  border: 1px solid #EEEEEE;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.main-list-projects-items:hover {
-  border: 1px solid #EEEEEE;
+.main-list-projects-items:hover,
+.main-list-projects-items:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
